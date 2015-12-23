@@ -1,0 +1,95 @@
+body,textarea,input  {
+    font-family: "Arial", "Lucida Grande", "Tahoma", "Verdana";
+    font-size: 20px;
+}
+
+body,app {
+	padding : 0;
+	margin : 0;
+	bottom : 1em;
+	top : 0;
+	position : absolute;
+	width : 100%;
+	overflow : hidden;
+}
+
+.temp {
+	top:1em;
+	left:1em;
+	right : 0.6em;
+	bottom : 0.1em;
+	position : absolute;
+	background-color : white;
+	opacity : 0.86;
+	/* display:flex; */
+	/* align-items:center; */ 
+	padding : 1em;
+	overflow-y : auto;
+}
+
+.language textarea {
+	border : 2px solid green;
+	font : 20px;
+	width : 100%;
+	height : 100%;
+}
+
+.language {
+	display : block;
+	box-sizing : border-box;
+	width : 100%;
+	margin-left : -2px;	
+	padding : 1em;
+	position : relative;
+}
+
+.language {
+	padding-bottom : 0.5em;
+}
+
+.label {
+	position : absolute;
+	top : 1.25em;
+	right : 1em;
+	pointer-events : none;
+}
+.on {
+	color : red;
+}
+.micro {
+	width : 2em;
+	height : 2em;
+	position : absolute;
+	bottom : 0.5em;
+	right : 0.75em;
+	cursor : pointer;
+	opacity : 0.4;
+}
+
+.disabled {
+	display : none;
+}
+
+.close {
+	font-family:Garamond,'Apple Garamond','Lucida Sans Unicode';
+	font-weight:bold;
+	width : auto;
+	height : auto;
+	right : 0.9em;
+	top : 1.3em;
+	position : absolute;
+	border : 2px solid black;
+	line-height : 1em;
+	padding : 0.25em;
+	background-color : white; 
+}
+
+
+.final {
+	padding : 0.15em;
+}
+
+.intermediate {
+	color : #000050;
+	display : inline
+}
